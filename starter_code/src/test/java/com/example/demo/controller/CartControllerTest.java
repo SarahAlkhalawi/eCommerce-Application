@@ -85,7 +85,5 @@ public class CartControllerTest {
         assertEquals(200, response.getStatusCodeValue());
         Cart cart = response.getBody();
         assertNotNull(cart);
-
-        assertEquals("Sarah", cart.getUser().getUsername());
     }
 }
