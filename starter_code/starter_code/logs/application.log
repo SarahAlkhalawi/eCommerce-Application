@@ -38,3 +38,45 @@
 2023-08-04 00:03:33,638 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-08-04 00:03:33,639 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
 2023-08-04 00:03:33,641 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-04 00:59:13,433 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests on Sarahs-MacBook-Pro.local with PID 60927 (started by sarahalkhalawi in /Users/sarahalkhalawi/Downloads/nd035-c4-Security-and-DevOps-1.Auth/starter_code)
+2023-08-04 00:59:13,439 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2023-08-04 00:59:13,824 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-04 00:59:13,877 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 44ms. Found 4 JPA repository interfaces.
+2023-08-04 00:59:14,441 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-04 00:59:14,506 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.18.Final
+2023-08-04 00:59:14,644 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-08-04 00:59:14,761 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-04 00:59:14,965 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-04 00:59:14,985 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-08-04 00:59:15,654 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-04 00:59:15,662 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-04 00:59:16,069 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-04 00:59:16,472 INFO o.s.s.w.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6075a4ea, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b5d1d9, org.springframework.security.web.header.HeaderWriterFilter@34c6b52e, org.springframework.web.filter.CorsFilter@5b0d480c, org.springframework.security.web.authentication.logout.LogoutFilter@5b31a9e3, com.example.demo.security.JWTAuthenticationFilter@3f2169e9, com.example.demo.security.JWTAuthenticationVerficationFilter@6689bf04, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@346e5cc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7167d81b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b9615cb, org.springframework.security.web.session.SessionManagementFilter@8b1bfdf, org.springframework.security.web.access.ExceptionTranslationFilter@10d97b64, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f6e3b67]
+2023-08-04 00:59:16,603 INFO o.s.s.c.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-04 00:59:16,783 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 3.621 seconds (JVM running for 4.935)
+2023-08-04 00:59:17,071 INFO c.e.d.c.UserController [main] Username: Sarah
+2023-08-04 00:59:17,170 INFO o.s.s.c.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-04 00:59:17,172 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-04 00:59:17,174 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-04 00:59:17,176 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-04 01:02:13,018 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests on Sarahs-MacBook-Pro.local with PID 61218 (started by sarahalkhalawi in /Users/sarahalkhalawi/Downloads/nd035-c4-Security-and-DevOps-1.Auth/starter_code)
+2023-08-04 01:02:13,032 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2023-08-04 01:02:13,509 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-04 01:02:13,568 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49ms. Found 4 JPA repository interfaces.
+2023-08-04 01:02:14,368 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-04 01:02:14,458 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.18.Final
+2023-08-04 01:02:14,641 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-08-04 01:02:14,781 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-04 01:02:14,972 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-04 01:02:14,993 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-08-04 01:02:15,695 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-04 01:02:15,703 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-04 01:02:16,157 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-04 01:02:16,614 INFO o.s.s.w.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3976910, org.springframework.security.web.context.SecurityContextPersistenceFilter@34c6b52e, org.springframework.security.web.header.HeaderWriterFilter@7aef8000, org.springframework.web.filter.CorsFilter@6e149395, org.springframework.security.web.authentication.logout.LogoutFilter@7d4b32d1, com.example.demo.security.JWTAuthenticationFilter@19bbb216, com.example.demo.security.JWTAuthenticationVerficationFilter@6cfac0bd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8b1bfdf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2cd2c764, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@549debdb, org.springframework.security.web.session.SessionManagementFilter@23cb8fcb, org.springframework.security.web.access.ExceptionTranslationFilter@3b17759c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@35e3f3b8]
+2023-08-04 01:02:16,766 INFO o.s.s.c.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-04 01:02:17,027 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 4.357 seconds (JVM running for 5.746)
+2023-08-04 01:02:17,308 INFO c.e.d.c.UserController [main] Username: Sarah
+2023-08-04 01:02:17,402 INFO o.s.s.c.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-04 01:02:17,404 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-04 01:02:17,406 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-04 01:02:17,408 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
