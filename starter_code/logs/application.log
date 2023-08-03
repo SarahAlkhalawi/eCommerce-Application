@@ -1,0 +1,111 @@
+2023-08-03 21:11:20,410 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on Sarahs-MacBook-Pro.local with PID 42522 (/Users/sarahalkhalawi/Downloads/nd035-c4-Security-and-DevOps-1.Auth/starter_code/target/classes started by sarahalkhalawi in /Users/sarahalkhalawi/Downloads/nd035-c4-Security-and-DevOps-1.Auth)
+2023-08-03 21:11:20,416 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2023-08-03 21:11:21,062 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-03 21:11:21,246 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 108ms. Found 4 JPA repository interfaces.
+2023-08-03 21:11:22,082 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2023-08-03 21:11:22,091 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-9090"]
+2023-08-03 21:11:22,092 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-08-03 21:11:22,092 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-08-03 21:11:22,147 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-08-03 21:11:22,147 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1685 ms
+2023-08-03 21:11:22,286 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-03 21:11:22,324 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.18.Final
+2023-08-03 21:11:22,444 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-08-03 21:11:22,521 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-03 21:11:22,639 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-03 21:11:22,652 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-08-03 21:11:23,182 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-03 21:11:23,187 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-03 21:11:23,422 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-03 21:11:23,730 INFO o.s.s.w.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e25282d, org.springframework.security.web.context.SecurityContextPersistenceFilter@35efd12c, org.springframework.security.web.header.HeaderWriterFilter@23aaa756, org.springframework.web.filter.CorsFilter@3b29d36c, org.springframework.security.web.authentication.logout.LogoutFilter@4536a09a, com.example.demo.security.JWTAuthenticationFilter@d641499, com.example.demo.security.JWTAuthenticationVerficationFilter@634d3439, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e18876d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c2e88b9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44e0c3d, org.springframework.security.web.session.SessionManagementFilter@7a92827f, org.springframework.security.web.access.ExceptionTranslationFilter@66e62fc4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@34ea86ff]
+2023-08-03 21:11:23,770 INFO o.s.s.c.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2023-08-03 21:11:23,866 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-9090"]
+2023-08-03 21:11:23,882 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path ''
+2023-08-03 21:11:23,889 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 3.812 seconds (JVM running for 4.495)
+2023-08-03 21:11:37,925 INFO o.a.c.c.C.[.[.[/] [http-nio-9090-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-03 21:11:37,926 INFO o.s.w.s.DispatcherServlet [http-nio-9090-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-08-03 21:11:37,937 INFO o.s.w.s.DispatcherServlet [http-nio-9090-exec-2] Completed initialization in 11 ms
+2023-08-03 21:11:38,105 INFO c.e.d.c.UserController [http-nio-9090-exec-2] Username: sara
+2023-08-03 21:11:38,139 ERROR c.e.d.c.UserController [http-nio-9090-exec-2] Either length is less than 7 or pass and conf pass do not match. Unable to create!
+2023-08-03 21:11:38,822 INFO c.e.d.c.UserController [http-nio-9090-exec-3] Username: sara
+2023-08-03 21:11:38,823 ERROR c.e.d.c.UserController [http-nio-9090-exec-3] Either length is less than 7 or pass and conf pass do not match. Unable to create!
+2023-08-03 21:11:39,923 INFO c.e.d.c.UserController [http-nio-9090-exec-6] Username: sara
+2023-08-03 21:11:39,925 ERROR c.e.d.c.UserController [http-nio-9090-exec-6] Either length is less than 7 or pass and conf pass do not match. Unable to create!
+2023-08-03 21:11:40,434 INFO c.e.d.c.UserController [http-nio-9090-exec-8] Username: sara
+2023-08-03 21:11:40,435 ERROR c.e.d.c.UserController [http-nio-9090-exec-8] Either length is less than 7 or pass and conf pass do not match. Unable to create!
+2023-08-03 21:11:51,248 INFO c.e.d.c.UserController [http-nio-9090-exec-9] Username: sara
+2023-08-03 21:20:54,488 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m31s742ms).
+2023-08-03 21:24:48,989 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-9090-exec-5] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.RuntimeException: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (org.apache.catalina.connector.CoyoteInputStream); line: 4, column: 2]
+	at com.example.demo.security.JWTAuthenticationFilter.attemptAuthentication(JWTAuthenticationFilter.java:45) ~[classes/:?]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.3.3.RELEASE.jar:5.3.3.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.37.jar:9.0.37]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (org.apache.catalina.connector.CoyoteInputStream); line: 4, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851) ~[jackson-core-2.11.1.jar:2.11.1]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:707) ~[jackson-core-2.11.1.jar:2.11.1]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:632) ~[jackson-core-2.11.1.jar:2.11.1]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2049) ~[jackson-core-2.11.1.jar:2.11.1]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1700) ~[jackson-core-2.11.1.jar:2.11.1]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextFieldName(UTF8StreamJsonParser.java:1038) ~[jackson-core-2.11.1.jar:2.11.1]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:300) ~[jackson-databind-2.11.1.jar:2.11.1]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:156) ~[jackson-databind-2.11.1.jar:2.11.1]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4482) ~[jackson-databind-2.11.1.jar:2.11.1]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3471) ~[jackson-databind-2.11.1.jar:2.11.1]
+	at com.example.demo.security.JWTAuthenticationFilter.attemptAuthentication(JWTAuthenticationFilter.java:37) ~[classes/:?]
+	... 50 more
+2023-08-03 21:27:30,247 ERROR c.e.d.c.OrderController [http-nio-9090-exec-1] Error finding user: sarah
+2023-08-03 21:28:44,426 ERROR c.e.d.c.OrderController [http-nio-9090-exec-3] Error finding user: Sarah
+2023-08-03 21:45:09,498 INFO o.s.s.c.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2023-08-03 21:45:09,505 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-03 21:45:09,532 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-03 21:45:09,549 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
