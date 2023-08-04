@@ -80,3 +80,9 @@
 2023-08-04 01:02:17,404 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-08-04 01:02:17,406 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
 2023-08-04 01:02:17,408 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-04 08:45:42,966 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests on Sarahs-MacBook-Pro.local with PID 64922 (started by sarahalkhalawi in /Users/sarahalkhalawi/Downloads/nd035-c4-Security-and-DevOps-1.Auth/starter_code)
+2023-08-04 08:45:42,980 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2023-08-04 08:45:43,540 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-04 08:45:43,617 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 66ms. Found 4 JPA repository interfaces.
+2023-08-04 08:45:44,457 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-04 08:45:44,531 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.18.Final
